@@ -29,7 +29,7 @@ def lista_dados_por_cpf():
     count = 1
     #variável para receber o CPF passado pelo usuário
     cpf = input('Insira aqui um CPF no formato 123.456.789-00 para iniciar a busca: ')
-    while len(cpf) < 6:
+    while len(cpf) < 14:
         print('Valor inserido inválido. Tente novamente')
         cpf = input('Insira aqui um CPF no formato 123.456.789-00 - ')
 
